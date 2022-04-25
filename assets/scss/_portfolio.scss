@@ -1,0 +1,67 @@
+/*==============Portfolio Style=================*/
+.portfolio {
+    position: relative;
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom: 50px;
+    background: #F6F6F2;
+
+    h2{
+        padding-bottom: 50px;
+    }
+
+    .single-portfolio {
+        position: relative;
+        margin: 15px 0;
+
+        .sp-text {
+            position: relative;
+            padding: 0px 20px 20px;
+
+            .img-tag {
+                position: relative;
+                background: #FCBC65;
+                width: 200px;
+                margin: auto;
+                text-align: left;
+                padding: 5px 0;
+                margin-top: -20px;
+
+                span{
+                    color: #fff;
+                    font-size: 14px;
+                    font-family: $Font2;
+                    padding: 6px 18px;
+                }
+
+                .it1{
+                    position: relative;
+
+                    &::before{
+                        position: absolute;
+                        content: '';
+                        right: 0;
+                        top: 10px;
+                        transform: rotate(25deg);
+                        height: 10px;
+                        width: 1px;
+                        background: #fff;
+
+                    }
+                }
+
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 600;
+                color: #F97C50;
+                padding: 10px 0;
+            }
+        }
+    }
+
+}
+
+
+/*==============/Portfolio Style=================*/

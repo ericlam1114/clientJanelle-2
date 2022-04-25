@@ -1,0 +1,110 @@
+/*====================About Area Style===================*/
+
+.about-area {
+    position: relative;
+    margin-top: 120px;
+
+    .about-content {
+        position: relative;
+
+        h2{
+            font-size: 50px;
+        }
+
+        p{
+            margin-top: 25px;
+        }
+
+        .sign {
+            position: relative;
+            margin-top: 50px;
+            h4{
+                font-family: $Font2;
+            }
+
+            p{
+                margin-top: 10px;
+            }
+            img{
+                max-width: unset;
+                width: auto;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.team-area {
+    position: relative;
+    background: #FFECD2;
+    margin-top: 100px;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 100px;
+
+    h2{
+        font-size: 50px;
+    }
+
+    p{
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    .single-team {
+        position: relative;
+        background: #FFFBF5;
+        text-align: center;
+        margin: 15px auto;
+        padding: 25px 30px 35px;
+        img {
+            max-width: unset;
+            height: auto;
+            width: auto;
+        }
+    
+        h4{
+            position: relative;
+            padding: 24px 0;
+    
+            &::before{
+                position: absolute;
+                content: '';
+                left: 10%;
+                width: 80%;
+                bottom: 5px;
+                height: 1px;
+                background: #f97c50;
+            }
+        }
+    
+        p{
+            margin: 20px 0;
+            width: 100%;
+        }
+    
+        ul {
+    
+            li{
+                margin-right: 8px;
+    
+                a{
+                    border: 1px solid #86817D;
+                    border-radius: 50%;
+                    color: #86817D;
+                    padding: 6px 8px;
+                    transition: .3s ease;
+    
+                    &:hover{
+                        background: #86817D;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*====================/About Area Style===================*/

@@ -1,0 +1,185 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7c0321bb7c9f80da7a952e0f568c7b98") format("truetype"),
+url("./flaticon.woff?7c0321bb7c9f80da7a952e0f568c7b98") format("woff"),
+url("./flaticon.woff2?7c0321bb7c9f80da7a952e0f568c7b98") format("woff2"),
+url("./flaticon.eot?7c0321bb7c9f80da7a952e0f568c7b98#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7c0321bb7c9f80da7a952e0f568c7b98#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "bell": "\f101",
+    "calendar": "\f102",
+    "call": "\f103",
+    "chat-1": "\f104",
+    "chat": "\f105",
+    "dribbble": "\f106",
+    "email": "\f107",
+    "envelope": "\f108",
+    "facebook-1": "\f109",
+    "facebook": "\f10a",
+    "global": "\f10b",
+    "heart": "\f10c",
+    "instagram-1": "\f10d",
+    "instagram": "\f10e",
+    "left-arrow": "\f10f",
+    "left-chevron": "\f110",
+    "left-quote": "\f111",
+    "left": "\f112",
+    "linkedin": "\f113",
+    "loupe": "\f114",
+    "next": "\f115",
+    "phone": "\f116",
+    "pin-1": "\f117",
+    "pin": "\f118",
+    "pinterest": "\f119",
+    "placeholder-1": "\f11a",
+    "placeholder": "\f11b",
+    "play-button": "\f11c",
+    "play": "\f11d",
+    "plus": "\f11e",
+    "remove": "\f11f",
+    "right-1": "\f120",
+    "right-2": "\f121",
+    "right-arrow": "\f122",
+    "right": "\f123",
+    "searching": "\f124",
+    "tumblr": "\f125",
+    "twitter": "\f126",
+    "visibility": "\f127",
+    "youtube": "\f128",
+);
+
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-chat-1:before {
+    content: map-get($flaticon-map, "chat-1");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-dribbble:before {
+    content: map-get($flaticon-map, "dribbble");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon-map, "facebook-1");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-global:before {
+    content: map-get($flaticon-map, "global");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-instagram-1:before {
+    content: map-get($flaticon-map, "instagram-1");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-left-chevron:before {
+    content: map-get($flaticon-map, "left-chevron");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-left:before {
+    content: map-get($flaticon-map, "left");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-next:before {
+    content: map-get($flaticon-map, "next");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon-map, "phone");
+}
+.flaticon-pin-1:before {
+    content: map-get($flaticon-map, "pin-1");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon-map, "pinterest");
+}
+.flaticon-placeholder-1:before {
+    content: map-get($flaticon-map, "placeholder-1");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-remove:before {
+    content: map-get($flaticon-map, "remove");
+}
+.flaticon-right-1:before {
+    content: map-get($flaticon-map, "right-1");
+}
+.flaticon-right-2:before {
+    content: map-get($flaticon-map, "right-2");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-right:before {
+    content: map-get($flaticon-map, "right");
+}
+.flaticon-searching:before {
+    content: map-get($flaticon-map, "searching");
+}
+.flaticon-tumblr:before {
+    content: map-get($flaticon-map, "tumblr");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-visibility:before {
+    content: map-get($flaticon-map, "visibility");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}

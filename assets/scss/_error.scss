@@ -1,0 +1,35 @@
+/*==================Error Area===============*/
+
+.error-area {
+    position: relative;
+    margin-top: 120px;
+    text-align: center;
+
+    h2{
+        font-family: $Font2;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+
+    img{
+        max-width: unset;
+        width: auto;
+    }
+
+    .btn-1 {
+        background: #F97C50;
+        color: #fff;
+        border-radius: 5px;
+        min-width: 150px;
+        padding: 10px 20px;
+        margin-top: 25px;
+        
+
+        &:hover{
+            background: #dead57;
+        }
+    }
+}
+
+
+/*==================/Error Area===============*/
